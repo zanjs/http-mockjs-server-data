@@ -1,0 +1,25 @@
+{
+  "host": "http://api.example.com/",
+  "ip": "",
+  "port": "",
+  "mock": [{
+    "pathname": "/test",
+    "tpl": "data/test.json",
+    "statusCode": 200,
+    "delay": 5000
+  }, {
+    "pathname": "/catelog/position",
+    "tpl": "data/catelog/position.json"
+  }, {
+    "pathname": "/rest/path/{arg1}/{arg2}-{arg3}",
+    "tpl": "rest.mock"
+  }, {
+    "pathname": "/rest/{method}/{arg1}/{arg2}-{arg3}",
+    "apiKey": "method=list",
+    "tpl": "rest.list.mock"
+  }, {
+    "pathname": "/rest",
+    "apiKey": "method=list",
+    "tpl": "rest.method.list.mock"
+  }]
+}

@@ -1,0 +1,9 @@
+{
+  "get": "@GET['id']",
+  "post|3": "@POST['user']",
+  "number1|+@GET['idstep']": 202,
+  "number2|1-100": "@REST['number2']",
+  "number3|1-100.1-10": 1,
+  "number4|123.1-10": 1,
+  "number5|123.10": 1.123
+}
