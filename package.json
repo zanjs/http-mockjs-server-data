@@ -1,0 +1,23 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-mock",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanjs/http-mockjs-server-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zanjs/http-mockjs-server-data/issues"
+  },
+  "homepage": "https://github.com/zanjs/http-mockjs-server-data#readme",
+  "devDependencies": {
+    "http-mock-json-server": "^0.2.2"
+  }
+}
